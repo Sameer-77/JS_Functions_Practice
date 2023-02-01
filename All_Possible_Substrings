@@ -1,0 +1,9 @@
+var str = "abc";
+function allSubStrings(s){
+    for(let i=0; i<=s.length; i++){
+        for(let j=i+1;j<=s.length;j++){
+            console.log(s.substring(i,j));
+        }
+    }
+}
+allSubStrings(str);

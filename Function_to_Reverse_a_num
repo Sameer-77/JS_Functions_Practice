@@ -1,0 +1,7 @@
+var k;
+function revAnumber(n){
+    n = n+'';
+    return n.split('').reverse().join('');
+    
+};
+console.log(revAnumber(986745));

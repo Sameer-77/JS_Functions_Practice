@@ -1,0 +1,7 @@
+var str = "Sameer";
+var strL = str.toUpperCase();
+var arr = [];
+function ascendingOrder(s){
+    return s.split('').sort().join('');
+}
+console.log(ascendingOrder(strL));

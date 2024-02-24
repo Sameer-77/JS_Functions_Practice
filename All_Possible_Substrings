@@ -7,3 +7,5 @@ function allSubStrings(s){
     }
 }
 allSubStrings(str);
+
+console.log("Hello");
